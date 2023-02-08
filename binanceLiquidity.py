@@ -8,7 +8,7 @@ from uniswap import Uniswap
 
 def seeBinanceLiquidity():
 
-    client = Spot(key='zk9qCvCQAEmRYaUVKrAFebIQVYCPZ2rPYXTPHdjV1OJu1Jkdv4WXgIwF31oEC7zW', secret='v6YbRdTt0UM5JDxHzgmOysGQQnxSNoXEEMDdeUpghTEsDlNYcYRMXB6OsEN6fgNO')
+    client = Spot(key='<your spot key>', secret='<your secret key>')
 
     bids = (client.depth("BTCUSDT")['bids'])
 
